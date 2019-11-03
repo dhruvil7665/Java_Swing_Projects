@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="btnSave" min="-2" pref="154" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                      <Component id="btnUpdate" min="-2" pref="146" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                      <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                              <Component id="uploadLabel" min="-2" pref="248" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="189" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="maxSeatsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="modelNumLabel" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <Component id="availableLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="brandNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="manufLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="minimumSeatsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="availCityLabel" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <Component id="carTyoeLabel" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <Component id="manufactureLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="serialNumberLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="maintainLabel" alignment="0" min="-2" pref="134" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="modelNumTxtField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="maxFieldTxtField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="minimumSeatsTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cityCheckBox" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="manufTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="brandNameText" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="carTypeCheckBox" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="manufacturetxtField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="serialNumberText" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="yesCheck" min="-2" max="-2" attributes="0"/>
+                                          <Component id="expireCheck" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="436" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="uploadLabel" min="-2" pref="41" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="availableLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yesCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="brandNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="brandNameText" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="manufLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="manufTextField" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="minimumSeatsTextField" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="minimumSeatsLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="maxSeatsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="maxFieldTxtField" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="modelNumLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="modelNumTxtField" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="availCityLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="cityCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="carTyoeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="carTypeCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="maintainLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="expireCheck" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="manufactureLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="manufacturetxtField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="serialNumberText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="serialNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnSave" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnUpdate" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBack" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="cityCheckBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="Boston"/>
+            <StringItem index="1" value="NewYork"/>
+            <StringItem index="2" value="Chicago"/>
+            <StringItem index="3" value="Seatlle"/>
+            <StringItem index="4" value="Austin"/>
+            <StringItem index="5" value=" "/>
+            <StringItem index="6" value=" "/>
+            <StringItem index="7" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="carTypeCheckBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="5">
+            <StringItem index="0" value="Sedan"/>
+            <StringItem index="1" value="SUV"/>
+            <StringItem index="2" value="Hatchback"/>
+            <StringItem index="3" value="SportsCar"/>
+            <StringItem index="4" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="manufactureLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacturer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="manufacturetxtField">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="serialNumberLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serial Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="serialNumberText">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="brandNameText">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="manufLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacture Year"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="manufTextField">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="minimumSeatsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mininum Seats"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="yesCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Yes"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="maxSeatsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maximum Seats"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="expireCheck">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Not Expired"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="minimumSeatsTextField">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="maxFieldTxtField">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="modelNumLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="modelNumTxtField">
+      <Properties>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="availCityLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Available City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="uploadLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car Details are Listed Below"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="availableLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Is the Car Available"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="brandNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Brand_Name of the Car"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="carTyoeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Car_Type"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="maintainLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Maintaince Certificate "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnUpdate">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUpdateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
